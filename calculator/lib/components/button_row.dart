@@ -8,8 +8,13 @@ class ButtonRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: buttons,
+    return Expanded(
+      flex: 1,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: buttons,
+      ),
+       
     );
   }
 }
