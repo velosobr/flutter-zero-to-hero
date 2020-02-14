@@ -8,25 +8,25 @@ class Button extends StatelessWidget {
   final String text;
   final bool big;
   final Color color;
-  final void Function(String) callback;
+  final void Function(String) cb;
 
   Button({
     @required this.text,
     this.big = false,
     this.color = DEFAULT,
-    @required this.callback,
+    @required this.cb,
   });
   Button.big({
     @required this.text,
     this.big = true,
     this.color = DEFAULT,
-    @required this.callback,
+    @required this.cb,
   });
   Button.operation({
     @required this.text,
     this.big = false,
     this.color = OPERATION,
-    @required this.callback,
+    @required this.cb,
   });
 
   @override
@@ -40,7 +40,7 @@ class Button extends StatelessWidget {
           style: TextStyle(
               color: Colors.white, fontSize: 32, fontWeight: FontWeight.w200),
         ),
-        onPressed: () => callback(text),
+        onPressed: () => cb(text),
       ),
     );
   }

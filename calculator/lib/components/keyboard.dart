@@ -16,84 +16,88 @@ class Keyboard extends StatelessWidget {
             Button.big(
               text: 'AC',
               color: Button.DARK,
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '%',
               color: Button.DARK,
-              callback: cb,
+              cb: cb,
             ),
             Button.operation(
               text: '/',
-              callback: cb,
+              cb: cb,
             ),
           ]),
+          SizedBox(height: 0.5),
           ButtonRow([
             Button(
               text: '7',
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '8',
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '9',
-              callback: cb,
+              cb: cb,
             ),
             Button.operation(
               text: 'x',
-              callback: cb,
+              cb: cb,
             ),
           ]),
+          SizedBox(height: 0.5),
           ButtonRow([
             Button(
               text: '4',
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '5',
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '6',
-              callback: cb,
+              cb: cb,
             ),
             Button.operation(
               text: '-',
-              callback: cb,
+              cb: cb,
             ),
           ]),
+          SizedBox(height: 0.5),
           ButtonRow([
             Button(
               text: '1',
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '2',
-              callback: cb,
+              cb: cb,
             ),
             Button(
               text: '3',
-              callback: cb,
+              cb: cb,
             ),
             Button.operation(
               text: '+',
-              callback: cb,
+              cb: cb,
             ),
           ]),
+          SizedBox(height: 0.5),
           ButtonRow([
             Button.big(
               text: '0',
-              callback: cb,
+              cb: cb,
             ),
             Button(
-              text: ',',
-              callback: cb,
+              text: '.',
+              cb: cb,
             ),
             Button.operation(
               text: '=',
-              callback: cb,
+              cb: cb,
             ),
           ])
         ],
