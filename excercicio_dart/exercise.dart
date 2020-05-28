@@ -13,4 +13,8 @@ main() {
   }
 
   print(a is String);
+
+  var nomes = ['Lino', 'Veloso', 'Junior'];
+  print(nomes.length);
+  print(nomes);
 }
