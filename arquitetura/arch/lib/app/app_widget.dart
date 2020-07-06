@@ -1,6 +1,7 @@
-import 'package:arch/app/controllers/app_controller.dart';
 import 'package:arch/app/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
+
+import 'app_controller.dart';
 
 class AppWidget extends StatelessWidget {
   @override
