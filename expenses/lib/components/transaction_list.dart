@@ -23,7 +23,7 @@ class TransactionList extends StatelessWidget {
                     width: 2,
                   ),
                 ),
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.all(9),
                 child: Text(
                   'R\$ ${transaction.value.toString()}',
                   style: TextStyle(
