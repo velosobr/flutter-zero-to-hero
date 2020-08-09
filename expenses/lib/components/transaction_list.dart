@@ -23,7 +23,7 @@ class TransactionList extends StatelessWidget {
                     width: 2,
                   ),
                 ),
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.all(9),
                 child: Text(
                   'R\$ ${transaction.value.toString()}',
                   style: TextStyle(
@@ -43,7 +43,7 @@ class TransactionList extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    DateFormat('d/MMM/yy').format(transaction.date),
+                    DateFormat('dd-MMMM-yy').format(transaction.date),
                     style: TextStyle(
                       color: Colors.grey[700],
                     ),

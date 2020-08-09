@@ -20,7 +20,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Despesas Pessoais'),
+        title: Text('Testando GIT'),
         centerTitle: true,
       ),
       body: Column(
