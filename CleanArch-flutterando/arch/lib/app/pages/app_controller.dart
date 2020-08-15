@@ -8,6 +8,7 @@ class AppController {
 
   final AppConfigModel config = AppConfigModel();
   bool get isDark => config.themeSwitch.value;
+  
   ValueNotifier<bool> get themeSwitch => config.themeSwitch;
 
   changeTheme(bool value) {
