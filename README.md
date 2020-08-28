@@ -1,3 +1,3 @@
-# Flutter Bootcamp
-### This is the main repo for Flutter studies. 
+# Flutter studies
+### The object here, is to get in touch with this new tecnology. 
 
