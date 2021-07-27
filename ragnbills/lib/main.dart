@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ragnbills/modules/home/home_page.dart';
 import 'package:ragnbills/modules/login/login_page.dart';
 import 'package:ragnbills/modules/splash/splash_page.dart';
 import 'package:ragnbills/shared/themes/app_colors.dart';
@@ -14,7 +15,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       title: 'RagnBills',
       theme: ThemeData(primaryColor: AppColors.primary),
-      home: LoginPage(),
+      home: HomePage(),
     );
   }
 }
